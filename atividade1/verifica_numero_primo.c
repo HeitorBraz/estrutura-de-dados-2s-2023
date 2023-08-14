@@ -1,23 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(){
+int main(int argc, char *argv[]){
 
     int n, i;
 
-    printf("Informe um numero: \n");
-    scanf("%d", &n);
+    n=atoi(argv[1]);
 
     if(n <= 1){
-        printf("Informe um numero maior que 1");
+        printf("0");
     }else{
         for(i=2; i<n; i++){
             if(n%i==0){
-                printf("Esse numero nao e primo");
+                printf("0");
                 break;
             }
         }
         if(i==n){
-            printf("Esse numero e primo");
+            printf("1");
         }
     }
 }
