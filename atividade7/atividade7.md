@@ -1,4 +1,4 @@
-# Projeto de Estruturas de Dados
+# Atividade 7 de Estruturas de Dados
 
 Este é o nosso projeto para a disciplina de Estruturas de Dados. Neste projeto, implementamos uma pilha e uma fila em C.
 
